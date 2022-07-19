@@ -1,4 +1,7 @@
 # Revert Compoundor
+
+[![hackmd-github-sync-badge](https://hackmd.io/wKK6z6FeTiK90yeNugGV2w/badge)](https://hackmd.io/wKK6z6FeTiK90yeNugGV2w)
+
 :::info
 This document is a work in progress, our goal is to gather feedback.
 :::
