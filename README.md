@@ -33,8 +33,10 @@ The protocol also allows for the position owner to compound their fees convenien
 
 Code:
 https://github.com/revert-finance/compoundor
+
 Documentation:
 https://docs.revert.finance
+
 Website:
 https://revert.finance
 
@@ -88,9 +90,13 @@ Likewise we can estimate the gas costs for compounding a position using the Comp
 We define the relevant parameters for our estimations as follows:
 
 ***P =*** Principal amount (current value of LP position)
+
 ***APR =*** annual percentage rate from fees only (fee APR)
+
 ***GASCOST =*** current gas costs of compounding fees
+
 ***PREWARD =*** fraction of compounded fees paid to the protocol
+
 ***CREWARD =*** fraction of the compounded fees paid to the account that calls the contract function and pays for the gas. This value is always equal or less than ***PREWARD***, as it defines the fraction of the protocol rewards assigned to the caller.
 
 
